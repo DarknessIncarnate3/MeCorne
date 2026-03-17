@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: eyelash_corne
       # url: https://github.com/a741725193/zmk-new_corne
-      url: https://github.com/DarknessIncarnate3
+      url: https://github.com/DarknessIncarnate3/MeCorne
       revision: main
     - name: zmk
       remote: zmkfirmware
