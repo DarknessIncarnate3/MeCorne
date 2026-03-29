@@ -143,7 +143,7 @@
             bindings = <
 &kp TAB                  &kp Q  &kp W  &kp F              &kp P      &kp G                                          &kp LA(UP)                   &kp J                &kp L                        &kp U                          &kp Y    &kp SEMI  &kp BSPC
 &zFast_Mod LCTRL ESCAPE  &kp A  &kp R  &kp S              &kp T      &kp D                            &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp H                &kp N                        &kp E                          &kp I    &kp O     &kp SQT
-&kp LEFT_ALT             &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp K                &kp M                        &kp COMMA                      &kp DOT  &kp FSLH  &mo 4
+&kp LEFT_ALT             &kp Z  &kp X  &kp C              &kp V      &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp K                &kp M                        &kp COMMA                      &kp DOT  &kp FSLH  &zFastLayer 4 MINUS
                                        &zFastLayer 3 F13  &kp SPACE  &zFastLayer 2 ESC                                                           &zFastLayer 1 ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_GUI BACKSPACE
             >;
 
