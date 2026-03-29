@@ -287,7 +287,7 @@ layers:
   - {t: /, s: '?'}
   - '&'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Ctl+-, h: fn, s: Ctl+_}
+  - {t: '-', h: fn, s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
