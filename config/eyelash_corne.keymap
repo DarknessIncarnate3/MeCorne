@@ -152,7 +152,7 @@
 
         Symbol {
             bindings = <
-&kp TAB    &none      &none     &none        &kp EXCLAMATION  &kp TILDE                           &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp PLUS       &none      &none
+&kp TAB    &none      &none     &none        &kp EXCLAMATION  &kp TILDE                           &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp PLUS       &none      &kp BACKSPACE
 &kp RCTRL  &kp CARET  &kp HASH  &kp PERCENT  &kp DOLLAR       &kp GRAVE                 &kp LEFT  &none     &kp RIGHT  &kp MINUS          &kp LEFT_BRACE               &kp RIGHT_BRACE        &kp ASTERISK   &kp EQUAL  &kp ENTER
 &none      &kp BSLH   &none     &none        &none            &kp AT_SIGN  &kp LSHFT              &kp DOWN             &none              &kp LBKT                     &kp RBKT               &kp AMPERSAND  &none      &zFastLayer 6 MINUS
                                 &none        &none            &none                                                    &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT SPACE  &none
@@ -176,10 +176,10 @@
         Quick {
             display-name = "ql";
             bindings = <
-&kp TAB  &none      &none      &none              &none      &none                       &none         &none  &none      &none     &none      &none      &none
-&none    &kp LCTRL  &kp LSHFT  &kp LALT           &kp LGUI   &none                &none  &none  &none  &none  &kp LGUI   &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER
-&none    &none      &none      &none              &kp TAB    &none       &none           &none         &none  &none      &none     &none      &none      &zFastLayer 6 MINUS
-                               &zFastLayer 4 F13  &kp SPACE  &kp ESCAPE                                &none  &kp ENTER  &none
+&kp TAB  &none      &none      &none              &none      &none                  &none         &none  &none     &none     &none      &none      &kp DELETE
+&none    &kp LCTRL  &kp LSHFT  &kp LALT           &kp LGUI   &none           &none  &none  &none  &none  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER
+&none    &none      &none      &none              &kp TAB    &none  &none           &none         &none  &none     &none     &none      &none      &zFastLayer 6 MINUS
+                               &zFastLayer 4 F13  &kp SPACE  &none                                &none  &none     &none
             >;
         };
 
