@@ -143,11 +143,20 @@
             bindings = <
 &kp TAB                        &kp Q  &kp W  &kp F                    &kp P      &kp G                                          &kp LA(UP)                   &kp J              &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSPC
 &zFast_Mod LCTRL ESCAPE        &kp A  &kp R  &kp S                    &kp T      &kp D                            &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp H              &kp N                        &kp E                    &kp I    &kp O     &kp SQT
-&zFast_Mod LEFT_ALT BACKSLASH  &kp Z  &kp X  &kp C                    &kp V      &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp K              &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 5 MINUS
-                                             &zFast_Mod LEFT_GUI F13  &kp SPACE  &zFastLayer 3 ESC                                                           &zFastLayer 1 F13  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 4 BACKSPACE
+&zFast_Mod LEFT_ALT BACKSLASH  &kp Z  &kp X  &kp C                    &kp V      &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp K              &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 6 MINUS
+                                             &zFast_Mod LEFT_GUI F13  &kp SPACE  &zFastLayer 5 ESC                                                           &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        Symbol {
+            bindings = <
+&kp TAB    &none      &none     &none        &kp EXCLAMATION  &kp TILDE                           &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp PLUS       &none      &none
+&kp RCTRL  &kp CARET  &kp HASH  &kp PERCENT  &kp DOLLAR       &kp GRAVE                 &kp LEFT  &none     &kp RIGHT  &kp MINUS          &kp LEFT_BRACE               &kp RIGHT_BRACE        &kp ASTERISK   &kp EQUAL  &kp ENTER
+&none      &kp BSLH   &none     &none        &none            &kp AT_SIGN  &kp LSHFT              &kp DOWN             &none              &kp LBKT                     &kp RBKT               &kp AMPERSAND  &none      &zFastLayer 6 MINUS
+                                &none        &none            &none                                                    &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT SPACE  &none
+            >;
         };
 
         Navigation {
@@ -156,55 +165,34 @@
             bindings = <
 &kp TAB                         &kp COMMA  &kp N1  &kp N2             &kp N3                       &none                             &kp LA(UP_ARROW)                 &none  &kp HOME          &kp PAGE_DOWN            &kp PAGE_UP       &kp END          &kp BACKSPACE
 &zFast_Mod LEFT_CONTROL ESCAPE  &kp N0     &kp N4  &kp N5             &kp N6                       &none               &kp LA(LEFT)  &none             &kp LA(RIGHT)  &none  &kp LEFT          &kp DOWN                 &kp UP            &kp RIGHT        &kp ENTER
-&kp LEFT_ALT                    &kp DOT    &kp N7  &kp N8             &kp N9                       &none      &none                  &kp LA(DOWN)                     &none  &msc MOVE_X(-10)  &msc MOVE_Y(10)          &msc MOVE_Y(-10)  &msc MOVE_X(10)  &zFastLayer 5 LC(MINUS)
-                                                   &zFastLayer 4 F13  &zFast_Mod LEFT_SHIFT SPACE  &kp SPACE                                                          &none  &none             &zFastLayer 4 BACKSPACE
+&kp LEFT_ALT                    &kp DOT    &kp N7  &kp N8             &kp N9                       &none      &none                  &kp LA(DOWN)                     &none  &msc MOVE_X(-10)  &msc MOVE_Y(10)          &msc MOVE_Y(-10)  &msc MOVE_X(10)  &zFastLayer 6 MINUS
+                                                   &zFastLayer 3 F13  &zFast_Mod LEFT_SHIFT SPACE  &kp SPACE                                                          &none  &none             &zFastLayer 3 BACKSPACE
             >;
 
             label = "num";
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
-        Symbol {
+        Quick {
+            display-name = "ql";
             bindings = <
-&kp TAB    &trans     &trans    &trans       &kp EXCLAMATION  &kp TILDE                           &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp PLUS       &trans     &trans
-&kp RCTRL  &kp CARET  &kp HASH  &kp PERCENT  &kp DOLLAR       &kp GRAVE                 &kp LEFT  &trans    &kp RIGHT  &kp MINUS          &kp LEFT_BRACE               &kp RIGHT_BRACE        &kp ASTERISK   &kp EQUAL  &kp ENTER
-&trans     &kp BSLH   &trans    &trans       &trans           &kp AT_SIGN  &kp LSHFT              &kp DOWN             &trans             &kp LBKT                     &kp RBKT               &kp AMPERSAND  &trans     &trans
-                                &trans       &trans           &trans                                                   &zFastLayer 1 F13  &zFast_Mod LEFT_SHIFT SPACE  &trans
+&kp TAB  &none      &none      &none              &none      &none                       &none         &none  &none      &none     &none      &none      &none
+&none    &kp LCTRL  &kp LSHFT  &kp LALT           &kp LGUI   &none                &none  &none  &none  &none  &kp LGUI   &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER
+&none    &none      &none      &none              &kp TAB    &none       &none           &none         &none  &none      &none     &none      &none      &zFastLayer 6 MINUS
+                               &zFastLayer 4 F13  &kp SPACE  &kp ESCAPE                                &none  &kp ENTER  &none
             >;
         };
 
-        layer_sym {
-            display-name = "sym";
+        FKeys {
+            display-name = "fky";
             bindings = <
 &kp TAB                         &kp F11  &kp F1  &kp F2  &kp F3                       &kp GRAVE                             &kp LA(UP)                   &kp AMPERSAND    &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp POUND  &kp BACKSLASH
 &zFast_Mod LEFT_CONTROL ESCAPE  &kp F10  &kp F4  &kp F5  &kp F6                       &kp SEMICOLON           &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp EXCLAMATION  &kp LEFT_BRACKET             &kp RIGHT_BRACKET      &kp MINUS     &kp EQUAL  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT                  &kp F12  &kp F7  &kp F8  &kp F9                       &kp DOLLAR     &none                  &kp LA(DOWN)                 &kp AT_SIGN      &kp PERCENT                  &kp COMMA              &kp DOT       &kp FSLH   &mo 5
+&kp LEFT_SHIFT                  &kp F12  &kp F7  &kp F8  &kp F9                       &kp DOLLAR     &none                  &kp LA(DOWN)                 &kp AT_SIGN      &kp PERCENT                  &kp COMMA              &kp DOT       &kp FSLH   &zFastLayer 6 MINUS
                                                  &none   &zFast_Mod LEFT_SHIFT ENTER  &kp SPACE                                                          &kp SPACE        &zFast_Mod LEFT_SHIFT ENTER  &none
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
-        };
-
-        Quick {
-            display-name = "ql";
-            bindings = <
-&kp TAB  &none      &none      &none     &none      &none                       &none         &none          &none      &none     &none      &none      &none
-&none    &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI   &none                &none  &none  &none  &none          &kp LGUI   &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER
-&none    &none      &none      &none     &kp TAB    &none       &none           &none         &none          &none      &none     &none      &none      &none
-                               &kp F13   &kp SPACE  &kp ESCAPE                                &kp LS(ENTER)  &kp ENTER  &none
-            >;
-        };
-
-        layer_fn {
-            display-name = "fn";
-            bindings = <
-&bt BT_SEL 0  &none  &none  &none  &none  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &none            &none            &none            &none            &none            &yBtClear
-&bt BT_SEL 1  &to 0  &none  &none  &none  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &none
-&bt BT_SEL 2  &none  &none  &none  &none  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 5
-                            &none  &none  &none                                                                               &none            &none            &none
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         NumSym {
@@ -213,11 +201,23 @@
             bindings = <
 &kp TAB                         &kp COMMA  &kp N1  &kp N2  &kp N3                       &none                         &kp LA(UP_ARROW)                 &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none          &kp SEMI   &kp BACKSPACE
 &zFast_Mod LEFT_CONTROL ESCAPE  &kp N0     &kp N4  &kp N5  &kp N6                       &none           &kp LA(LEFT)  &none             &kp LA(RIGHT)  &kp CARET        &kp PLUS              &kp STAR               &none          &kp EQUAL  &kp ENTER
-&kp LEFT_SHIFT                  &kp DOT    &kp N7  &kp N8  &kp N9                       &none  &none                  &kp LA(DOWN)                     &kp UNDERSCORE   &kp MINUS             &kp FSLH               &kp AMPERSAND  &none      &zFastLayer 5 LC(MINUS)
+&kp LEFT_SHIFT                  &kp DOT    &kp N7  &kp N8  &kp N9                       &none  &none                  &kp LA(DOWN)                     &kp UNDERSCORE   &kp MINUS             &kp FSLH               &kp AMPERSAND  &none      &zFastLayer 6 LC(MINUS)
                                                    &none   &zFast_Mod LEFT_SHIFT SPACE  &none                                                          &none            &none                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
+        };
+
+        Function {
+            display-name = "fn";
+            bindings = <
+&bt BT_SEL 0  &none  &none  &none  &none  &bt BT_SEL 3                                      &rgb_ug RGB_SAI                   &none            &none            &none            &none            &none            &yBtClear
+&bt BT_SEL 1  &to 0  &none  &none  &none  &bt BT_SEL 4                     &rgb_ug RGB_HUD  &yColour         &rgb_ug RGB_HUI  &yBacklight      &none            &bl BL_INC       &bl BL_DEC       &none            &none
+&bt BT_SEL 2  &none  &none  &none  &none  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 6
+                            &none  &none  &none                                                                               &none            &none            &none
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
     };
 };
