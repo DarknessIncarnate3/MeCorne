@@ -146,6 +146,7 @@
 &zFast_Mod LEFT_ALT BACKSLASH  &kp Z  &kp X  &kp C                    &kp V      &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp K              &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 6 MINUS
                                              &zFast_Mod LEFT_GUI F13  &kp SPACE  &zFastLayer 5 ESC                                                           &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 BACKSPACE
             >;
+
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -167,6 +168,7 @@
 &kp LEFT_ALT                    &kp DOT    &kp N7  &kp N8             &kp N9                       &none      &none                  &kp LA(DOWN)                     &none  &msc MOVE_X(-10)  &msc MOVE_Y(10)          &msc MOVE_Y(-10)  &msc MOVE_X(10)  &zFastLayer 6 MINUS
                                                    &zFastLayer 3 F13  &zFast_Mod LEFT_SHIFT SPACE  &kp SPACE                                                          &none  &none             &zFastLayer 3 BACKSPACE
             >;
+
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
@@ -188,6 +190,7 @@
 &kp LEFT_SHIFT                  &kp F12  &kp F7  &kp F8  &kp F9  &none  &none                  &kp LA(DOWN)                 &none  &none  &none  &none  &none  &zFastLayer 6 MINUS
                                                  &none   &none   &none                                                      &none  &none  &none
             >;
+
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
@@ -196,9 +199,10 @@
             bindings = <
 &kp TAB                         &kp COMMA  &kp N1  &kp N2  &kp N3                       &none                         &kp LA(UP_ARROW)                 &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none          &kp SEMI   &kp BACKSPACE
 &zFast_Mod LEFT_CONTROL ESCAPE  &kp N0     &kp N4  &kp N5  &kp N6                       &none           &kp LA(LEFT)  &none             &kp LA(RIGHT)  &kp CARET        &kp PLUS              &kp STAR               &none          &kp EQUAL  &kp ENTER
-&kp LEFT_SHIFT                  &kp DOT    &kp N7  &kp N8  &kp N9                       &none  &none                  &kp LA(DOWN)                     &kp UNDERSCORE   &kp MINUS             &kp FSLH               &kp AMPERSAND  &none      &zFastLayer 6 LC(MINUS)
+&kp LEFT_SHIFT                  &kp DOT    &kp N7  &kp N8  &kp N9                       &none  &none                  &kp LA(DOWN)                     &kp UNDERSCORE   &kp MINUS             &kp FSLH               &kp AMPERSAND  &none      &zFastLayer 6 MINUS
                                                    &none   &zFast_Mod LEFT_SHIFT SPACE  &none                                                          &none            &none                 &none
             >;
+
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
@@ -210,6 +214,7 @@
 &bt BT_SEL 2  &none  &none  &none  &none  &yOutput      &rgb_ug RGB_TOG                     &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &mo 6
                             &none  &none  &none                                                                               &none            &none            &none
             >;
+
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
     };
