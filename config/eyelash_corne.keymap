@@ -153,10 +153,10 @@
         Symbol {
             display-name = "sym";
             bindings = <
-&kp TAB    &none      &none     &none        &kp EXCLAMATION  &kp TILDE                       &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &kp PLUS       &none      &kp BACKSPACE
-&kp RCTRL  &kp CARET  &kp HASH  &kp PERCENT  &kp DOLLAR       &kp GRAVE             &kp LEFT  &none     &kp RIGHT  &kp MINUS          &kp LEFT_BRACE               &kp RIGHT_BRACE          &kp ASTERISK   &kp EQUAL  &kp ENTER
-&none      &kp BSLH   &none     &none        &none            &kp AT_SIGN  &none              &kp DOWN             &none              &kp LBKT                     &kp RBKT                 &kp AMPERSAND  &none      &zFastLayer 6 MINUS
-                                &none        &none            &none                                                &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 3 BACKSPACE
+&kp TAB    &none      &none     &none          &kp EXCLAMATION   &kp TILDE                       &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &kp PLUS       &none      &kp BACKSPACE
+&kp RCTRL  &kp CARET  &kp HASH  &kp PERCENT    &kp DOLLAR        &kp GRAVE             &kp LEFT  &none     &kp RIGHT  &kp MINUS          &kp LEFT_BRACE               &kp RIGHT_BRACE          &kp ASTERISK   &kp EQUAL  &kp ENTER
+&none      &kp BSLH   &none     &kp LESS_THAN  &kp GREATER_THAN  &kp AT_SIGN  &none              &kp DOWN             &none              &kp LBKT                     &kp RBKT                 &kp AMPERSAND  &none      &zFastLayer 6 MINUS
+                                &none          &none             &none                                                &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 3 BACKSPACE
             >;
         };
 
