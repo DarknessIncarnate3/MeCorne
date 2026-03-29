@@ -200,10 +200,10 @@
 
         Symbol {
             bindings = <
-&none  &none          &none  &kp LS(LPAR)  &kp LS(RPAR)  &none                  &none         &kp LS(UNDER)  &none      &none  &none  &none      &none
-&none  &kp LS(CARET)  &none  &kp LS(LBRC)  &kp LS(DLLR)  &none           &none  &none  &none  &kp MINUS      &none      &none  &none  &kp EQUAL  &none
-&none  &none          &none  &kp LBKT      &kp RBKT      &none  &none           &none         &none          &none      &none  &none  &none      &none
-                             &none         &none         &none                                &none          &kp SPACE  &none
+&trans  &trans         &trans  &trans  &trans  &trans                    &trans          &kp LS(UNDER)  &kp LS(LPAR)  &kp LS(RPAR)  &trans  &trans     &trans
+&trans  &kp LS(CARET)  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp MINUS      &kp LS(LBRC)  &kp LS(RBRC)  &trans  &kp EQUAL  &trans
+&trans  &trans         &trans  &trans  &trans  &trans  &trans            &trans          &trans         &kp LBKT      &kp RBKT      &trans  &trans     &trans
+                               &trans  &trans  &trans                                    &trans         &kp SPACE     &trans
             >;
         };
 
