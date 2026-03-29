@@ -154,9 +154,9 @@
             display-name = "n\";
 
             bindings = <
-&kp TAB         &kp COMMA  &kp N1  &kp N2  &kp N3                       &none                             &kp LA(UP_ARROW)                 &kp ASTERISK  &kp HOME          &kp PAGE_DOWN    &kp PAGE_UP       &zHomeLayer 0 END  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5  &kp N6                       &none               &kp LA(LEFT)  &none             &kp LA(RIGHT)  &kp PLUS      &kp LEFT          &kp DOWN         &kp UP            &kp RIGHT          &kp SLASH
-&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8  &kp N9                       &none      &none                  &kp LA(DOWN)                     &kp EQUAL     &msc MOVE_X(-10)  &msc MOVE_Y(10)  &msc MOVE_Y(-10)  &msc MOVE_X(10)    &zFastLayer 5 LC(MINUS)
+&kp TAB         &kp COMMA  &kp N1  &kp N2  &kp N3                       &none                             &kp LA(UP_ARROW)                 &kp ASTERISK  &kp HOME          &kp PAGE_DOWN    &kp PAGE_UP       &kp END          &kp BACKSPACE
+&kp LEFT_SHIFT  &kp N0     &kp N4  &kp N5  &kp N6                       &none               &kp LA(LEFT)  &none             &kp LA(RIGHT)  &kp PLUS      &kp LEFT          &kp DOWN         &kp UP            &kp RIGHT        &kp SLASH
+&kp LEFT_ALT    &kp DOT    &kp N7  &kp N8  &kp N9                       &none      &none                  &kp LA(DOWN)                     &kp EQUAL     &msc MOVE_X(-10)  &msc MOVE_Y(10)  &msc MOVE_Y(-10)  &msc MOVE_X(10)  &zFastLayer 5 LC(MINUS)
                                    &none   &zFast_Mod LEFT_SHIFT ENTER  &kp SPACE                                                          &none         &none             &none
             >;
 
@@ -166,10 +166,10 @@
 
         Symbol {
             bindings = <
-&trans  &trans     &trans    &trans       &kp EXCLAMATION  &kp TILDE                         &trans          &kp UNDERSCORE  &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp PLUS       &trans     &trans
-&trans  &kp CARET  &kp HASH  &kp PERCENT  &kp DOLLAR       &kp GRAVE                 &trans  &trans  &trans  &kp MINUS       &kp LEFT_BRACE               &kp RIGHT_BRACE        &kp ASTERISK   &kp EQUAL  &trans
-&trans  &kp BSLH   &trans    &trans       &trans           &kp AT_SIGN  &kp LSHFT            &trans          &trans          &kp LBKT                     &kp RBKT               &kp AMPERSAND  &trans     &trans
-                             &trans       &trans           &trans                                            &trans          &zFast_Mod LEFT_SHIFT SPACE  &trans
+&kp TAB    &trans     &trans    &trans       &kp EXCLAMATION  &kp TILDE                           &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp PLUS       &trans     &trans
+&kp RCTRL  &kp CARET  &kp HASH  &kp PERCENT  &kp DOLLAR       &kp GRAVE                 &kp LEFT  &trans    &kp RIGHT  &kp MINUS          &kp LEFT_BRACE               &kp RIGHT_BRACE        &kp ASTERISK   &kp EQUAL  &kp ENTER
+&trans     &kp BSLH   &trans    &trans       &trans           &kp AT_SIGN  &kp LSHFT              &kp DOWN             &trans             &kp LBKT                     &kp RBKT               &kp AMPERSAND  &trans     &trans
+                                &trans       &trans           &trans                                                   &zFastLayer 1 F13  &zFast_Mod LEFT_SHIFT SPACE  &trans
             >;
         };
 
