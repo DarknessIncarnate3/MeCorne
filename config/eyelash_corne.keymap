@@ -144,7 +144,7 @@
 &kp TAB                        &kp Q  &kp W  &kp F                    &kp P      &kp G                                          &kp LA(UP)                   &kp J              &kp L                        &kp U                    &kp Y    &kp SEMI  &kp BSPC
 &zFast_Mod LCTRL ESCAPE        &kp A  &kp R  &kp S                    &kp T      &kp D                            &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp H              &kp N                        &kp E                    &kp I    &kp O     &kp SQT
 &zFast_Mod LEFT_ALT BACKSLASH  &kp Z  &kp X  &kp C                    &kp V      &kp B              &kp C_PLAY                  &kp LA(DOWN)                 &kp K              &kp M                        &kp COMMA                &kp DOT  &kp FSLH  &zFastLayer 6 MINUS
-                                             &zFast_Mod LEFT_GUI F13  &kp SPACE  &zFastLayer 1 ESC                                                           &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 BACKSPACE
+                                             &zFast_Mod LEFT_GUI F14  &kp SPACE  &zFastLayer 1 ESC                                                           &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -153,7 +153,7 @@
         Symbol {
             display-name = "sym";
             bindings = <
-&kp TAB    &none      &none     &none          &kp EXCLAMATION   &kp TILDE                       &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &kp PLUS       &none      &kp BACKSPACE
+&kp TAB    &none      &none     &none          &kp EXCLAMATION   &kp TILDE                       &kp UP               &kp UNDERSCORE     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &kp PLUS       &kp PIPE   &kp BACKSPACE
 &kp RCTRL  &kp CARET  &kp HASH  &kp PERCENT    &kp DOLLAR        &kp GRAVE             &kp LEFT  &none     &kp RIGHT  &kp MINUS          &kp LEFT_BRACE               &kp RIGHT_BRACE          &kp ASTERISK   &kp EQUAL  &kp ENTER
 &none      &kp BSLH   &none     &kp LESS_THAN  &kp GREATER_THAN  &kp AT_SIGN  &none              &kp DOWN             &none              &kp LBKT                     &kp RBKT                 &kp AMPERSAND  &none      &zFastLayer 6 MINUS
                                 &none          &none             &none                                                &zFastLayer 2 F13  &zFast_Mod LEFT_SHIFT SPACE  &zFastLayer 3 BACKSPACE
