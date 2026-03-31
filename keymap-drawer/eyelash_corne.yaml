@@ -43,10 +43,10 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', h: fn, s: _}
-  - {t: F14, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F23, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: sym}
-  - {t: F13, h: nav}
+  - {t: F24, h: nav}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: ql}
   sym:
@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: F13, h: nav}
+  - {t: F24, h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: ql}
   nav:
@@ -141,7 +141,7 @@ layers:
   - '&msc MOVE_Y(-10)'
   - '&msc MOVE_X(10)'
   - {t: '-', h: fn, s: _}
-  - {t: F13, h: ql}
+  - {t: F24, h: ql}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: num, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', h: fn, s: _}
-  - {t: F13, h: f1, type: held alternate}
+  - {t: F24, h: f1, type: held alternate}
   - $$mdi:keyboard-space$$
   - {t: 'Sft+$$mdi:keyboard-return$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
