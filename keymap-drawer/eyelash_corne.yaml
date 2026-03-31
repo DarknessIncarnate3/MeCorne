@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', h: fn, s: _}
-  - {t: F13, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F14, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: sym}
   - {t: F13, h: nav}
@@ -61,7 +61,7 @@ layers:
   - (
   - )
   - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '|'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - ^
